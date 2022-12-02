@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-weight: bolder;
+}
+.container{
+    height: 100vh;
+}
+header{
+    height: 10%;
+}
+main{
+    height: 80%;
+}
+footer{
+    height: 10%;
+}
+span{
+    color: red;
+}
+.menu{
+    background-color: purple;
+    color: white;
+    font-weight: bolder;
+}
+
+.menu p{
+    font-size: 24px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu :hover{
+    color: aqua;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    
+}
+
+.menu ul li a button{
+    background-color: red;
+    color: white;
+    border: none;
+    width: 60px;
+    border: 2px solid white;
+}
+.images-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.wristwatches{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+footer{
+    margin-top: 10em;
+}
+#add2cart{
+    background-color: red;
+    color: white;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+
+    .images-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .wristwatches{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+    footer{
+        margin-top: 8%;
+        font-size: 5vw;
+    }
+}
